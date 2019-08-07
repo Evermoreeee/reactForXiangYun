@@ -1,6 +1,6 @@
 
 import React ,{ Component } from 'react'
-import TabBarExample from '../../common/TabBar'
+import TabBarExample from '../TabBar'
 
 class HomeCenter extends Component{
     render(){

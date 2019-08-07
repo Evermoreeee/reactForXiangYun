@@ -1,6 +1,7 @@
-import React ,{ Component } from '../../../node_modules/react'
+import React ,{ Component } from 'react'
 // import TabBarExample from '../../compnents/TabBar'
-import { TabBar } from '../../../node_modules/antd-mobile';
+import { TabBar } from 'antd-mobile';
+import IdealPage from '../idealPage'
 
 class TabBarExample extends Component {
     constructor(props) {
@@ -10,11 +11,17 @@ class TabBarExample extends Component {
       };
     }
     renderContent(pageText){
-      return(
-        <div className='pageItem'>
-          {pageText}
-        </div>
-      )
+      if(pageText === '理想'){
+        return (
+          <IdealPage></IdealPage>
+        )
+      }else{
+        return(
+          <div className='pageItem'>
+            {pageText}
+          </div>
+        )
+      }
     }
 
     render(){

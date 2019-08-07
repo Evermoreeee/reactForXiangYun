@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* ant mobile */
+.am-navbar-title{
+  flex: 3 !important;
+  background: #fff333;
+}
