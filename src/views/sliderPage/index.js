@@ -1,5 +1,5 @@
 import React ,{ Component } from '../../../node_modules/react'
-import { Carousel, WingBlank  } from 'antd-mobile';
+import { Carousel  } from 'antd-mobile';
 
 
 class SliderPage extends Component{
