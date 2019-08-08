@@ -1,7 +1,6 @@
 import React ,{ Component } from 'react'
 // import TabBarExample from '../../compnents/TabBar'
 import { TabBar } from 'antd-mobile';
-
 import IdealPage from '../idealPage'
 
 class TabBarExample extends Component {
@@ -63,10 +62,10 @@ class TabBarExample extends Component {
                         title={item.title}
                         key={item.title}
                         icon={
-                          <img alt='' style={{width:"16px",height:'16px'}} src={item.imgUrl}></img>
+                          <img style={{width:"16px",height:'16px'}} src={item.imgUrl}></img>
                         }
                         selectedIcon={
-                          <img alt='' style={{width:"16px",height:'16px'}} src={item.selectUrl}></img>
+                          <img style={{width:"16px",height:'16px'}} src={item.selectUrl}></img>
                         }
                         selected={this.state.selectedTab === item.title}
                         onPress={() => {
