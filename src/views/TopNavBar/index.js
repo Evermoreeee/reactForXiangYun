@@ -2,7 +2,7 @@ import React ,{ Component } from 'react'
 
 import { Tabs } from 'antd-mobile';
 
-class topNabBar extends Component {
+class TopNavBar extends Component {
     render(){
         const tabs2 = [
             { title: 'First Tab', sub: '1' },
@@ -29,4 +29,4 @@ class topNabBar extends Component {
         )
     }
 }
-export default topNabBar;
+export default TopNavBar;

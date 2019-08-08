@@ -15,5 +15,25 @@ code {
 /* ant mobile */
 .am-navbar-title{
   flex: 3 !important;
-  background: #fff333;
+  background: #f57f0ae0;
+  color: #fff555 !important;
+}
+.my-drawer {
+  position: relative;
+  overflow: auto;
+  top: 45px !important;
+  height: calc(100% - 45px);
+  -webkit-overflow-scrolling: touch;
+}
+.my-drawer .am-drawer-sidebar {
+  background-color: #fff;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.my-drawer .am-drawer-sidebar .am-list {
+  width: 300px;
+  padding: 0;
+}
+.am-drawer.am-drawer-left .am-drawer-draghandle{
+  left: -11px !important;
 }
