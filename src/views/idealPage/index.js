@@ -62,6 +62,7 @@ class IdealPage extends Component{
                     onOpenChange={this.onOpenChange}
                 >
                    <SliderPage></SliderPage>
+                   
                 </Drawer>
             </div>
         )
