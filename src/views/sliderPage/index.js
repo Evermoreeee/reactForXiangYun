@@ -31,7 +31,7 @@ class SliderPage extends Component{
           afterChange={index => console.log('slide to', index)}
         >
           {this.state.data.map(val => (
-            <div  key={val} style={{width:'90%',height:'200px',margin:'0 auto',}}>
+            <div  key={val} style={{width:'90%',height:'190px',margin:'0 auto',}}>
                 <img
                     src={ val } 
                     alt=""

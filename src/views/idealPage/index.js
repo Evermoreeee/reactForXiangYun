@@ -3,7 +3,7 @@ import { Drawer, List, NavBar  } from 'antd-mobile';
 
 // import TopNavBar from '../TopNavBar'
 import SliderPage from '../sliderPage'
-
+import IconNavBar from '../iconNavBar'
 class IdealPage extends Component{
     state = {
         open: false,
@@ -62,7 +62,7 @@ class IdealPage extends Component{
                     onOpenChange={this.onOpenChange}
                 >
                    <SliderPage></SliderPage>
-                   
+                   <IconNavBar></IconNavBar>
                 </Drawer>
             </div>
         )
