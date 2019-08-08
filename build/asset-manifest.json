@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.35a2ef52.chunk.css",
+    "main.js": "/static/js/main.57226b23.chunk.js",
+    "main.js.map": "/static/js/main.57226b23.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.dae7720b.chunk.css": "/static/css/2.dae7720b.chunk.css",
+    "static/js/2.5a4e876e.chunk.js": "/static/js/2.5a4e876e.chunk.js",
+    "static/js/2.5a4e876e.chunk.js.map": "/static/js/2.5a4e876e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9b3a37fb005ce73dedfb7eb72049a334.js": "/precache-manifest.9b3a37fb005ce73dedfb7eb72049a334.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.dae7720b.chunk.css.map": "/static/css/2.dae7720b.chunk.css.map",
+    "static/css/main.35a2ef52.chunk.css.map": "/static/css/main.35a2ef52.chunk.css.map",
+    "static/media/fenxiang.png": "/static/media/fenxiang.7832056b.png",
+    "static/media/remen.png": "/static/media/remen.ba30b627.png",
+    "static/media/shoucang.png": "/static/media/shoucang.0d2a183a.png",
+    "static/media/sousuo.png": "/static/media/sousuo.3a9c0006.png",
+    "static/media/yuyin.png": "/static/media/yuyin.68da2d47.png"
+  }
+}
