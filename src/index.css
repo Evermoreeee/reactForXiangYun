@@ -16,6 +16,7 @@ code {
 .am-navbar-title{
   flex: 3 !important;
   background: #f57f0ae0;
+  border-radius: 42px;
   color: #fff555 !important;
 }
 .my-drawer {
@@ -37,3 +38,16 @@ code {
 .am-drawer.am-drawer-left .am-drawer-draghandle{
   left: -11px !important;
 }
+.am-drawer-content{
+  background: #fff333;
+}
+ .slider-decorator-0{
+   bottom: 35px !important;
+ }
+ .am-carousel-wrap-dot-active > span{
+  background: #f57f0ae0 !important;
+
+ }
+ .am-carousel-wrap-dot-active{
+   color: red !important;
+ }

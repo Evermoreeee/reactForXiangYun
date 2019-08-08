@@ -1,7 +1,9 @@
 import React ,{ Component } from '../../../node_modules/react'
+import { Drawer, List, NavBar  } from 'antd-mobile';
 
 // import TopNavBar from '../TopNavBar'
-import { Drawer, List, NavBar  } from 'antd-mobile';
+import SliderPage from '../sliderPage'
+
 class IdealPage extends Component{
     state = {
         open: false,
@@ -59,7 +61,7 @@ class IdealPage extends Component{
                     open={this.state.open}
                     onOpenChange={this.onOpenChange}
                 >
-                    Click upper-left corner
+                   <SliderPage></SliderPage>
                 </Drawer>
             </div>
         )
